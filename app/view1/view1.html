@@ -1,1 +1,10 @@
-<p>This is the partial for view 1.</p>
+<div>
+
+    <div>
+        <md-subheader>this is view demo</md-subheader>
+        <p>this tab contains front end MVC's view demo (including)</p>
+    </div>
+    <div ng-repeat='person in people' ng-click="showPerson(person)">
+        {{person.firstName}}
+    </div>
+</div>
